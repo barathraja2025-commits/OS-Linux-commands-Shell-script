@@ -89,12 +89,12 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![f1 file22](./img/f1 file22.png)
+![f1file22](./img/f1 file22.png)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![f2 file22](./img/f2 file22.png)
+![f2file22](./img/f2 file22.png)
 
 cat < newfile 
 ```
