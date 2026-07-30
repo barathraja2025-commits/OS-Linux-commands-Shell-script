@@ -206,7 +206,7 @@ egrep 'Linux.*world' newfile
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-![Alt text](img/egrepL*w.png)
+![Alt text](img/egrepW.png)
 
 egrep l{2} newfile
 ## OUTPUT
