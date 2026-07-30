@@ -358,18 +358,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![Alt text](img/trd.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![Alt text](img/trdtrs.png)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![Alt text](img/tarcvf.png)
 
 mkdir backupdir
  
@@ -379,10 +379,11 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+![Alt text](img/tartvf.png)
 
 tar -xvf backup.tar
 ## OUTPUT
+![Alt text](img/tarxvf.png)
 
 gzip backup.tar
 
@@ -413,7 +414,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![Alt text](img/catstopcheck.png)
 
 cat < scriptest.sh 
 ```bash
@@ -451,24 +452,26 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![Alt text](img/chmod777.png)
  
 ls file1
 ## OUTPUT
-
+![Alt text](img/lsfile1.png)
 echo $?
 ## OUTPUT 
+![Alt text](img/echo0.png)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![Alt text](img/echo127.png)
 abcd
  
 echo $?
  ## OUTPUT
-
+![Alt text](img/echo1277.png)
 
  
 # mis-using string comparisons
