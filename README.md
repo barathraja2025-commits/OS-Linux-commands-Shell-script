@@ -320,7 +320,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![Alt text](img/sort21.png)
 
 cat > file22
 ```
@@ -333,13 +333,15 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Alt text](img/uniq22.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Alt text](img/cf23.png)
+
 
 cat < urllist.txt
 ```
