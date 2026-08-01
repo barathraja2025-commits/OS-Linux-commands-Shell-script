@@ -503,14 +503,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
+![Alt text](img/cstrcomp.png)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![Alt text](img/c7555.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -537,7 +537,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
+![Alt text](img/sry.png)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -583,7 +583,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![Alt text](img/if.png)
 
 
 # using numeric test comparisons
@@ -627,7 +627,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-
+![Alt text](img/iftest.png)
 # check if a file
 cat > ifnested.sh 
 ```bash
