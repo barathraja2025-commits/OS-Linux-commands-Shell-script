@@ -959,7 +959,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![Alt text](img/forcontinue.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -973,7 +973,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![Alt text](img/exread.png)
 
  cat exread1.sh
 ```bash
@@ -983,12 +983,11 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
 $ ./exread1.sh 
+ 
+## OUTPUT
+![Alt text](img/exread1.png)
+
  
 cat funcex.sh
 ```bash
@@ -1005,12 +1004,13 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
  ./funcex.sh 
 
  
  ./funcex.sh 1 2
 
+## OUTPUT
+![Alt text](img/funcexx.png)
  
 cat argshift.sh
 ```bash
@@ -1022,9 +1022,10 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+## OUTPUT
+![Alt text](img/argshuft.png)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1039,8 +1040,9 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+ ## OUTPUT
+
  
 cat argshift.sh
 ```bash
@@ -1053,7 +1055,7 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
+ ![Alt text](img/agrshifttt.png)
  
  
 cat > nc.awk
@@ -1085,7 +1087,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![Alt text](img/nc.awk.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1112,7 +1115,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![Alt text](img/palindrome.png)
 
 # RESULT:
 The Commands are executed successfully.
