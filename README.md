@@ -389,10 +389,10 @@ gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![Alt text](img/gzip.png)
 gunzip backup.tar.gz
 ## OUTPUT
-
+![Alt text](img/gunzip.png)
  
 # Shell Script
 ```
