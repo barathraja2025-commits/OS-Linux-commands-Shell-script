@@ -676,7 +676,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-
+![Alt text](img/ifnested.png)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -685,7 +685,7 @@ if [ $USER = Ram ]
 then
 echo "Welcome $USER"
 echo "Please enjoy your visit"
-elif [ $USER = Rahim ]
+elif [ $USER = john ]
 then
 echo "Welcome $USER"
 echo "Please enjoy your visit"
@@ -704,7 +704,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![Alt text](img/elifcheck.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -720,7 +720,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![Alt text](img/ifcompound.png)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -739,6 +739,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## OUTPUT
+![Alt text](img/casecheck.png)
  
 cat > whiletest
 ```bash
@@ -754,6 +756,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
+## OUTPUT
+![Alt text](img/whiletest.png)
  
  
 cat untiltest.sh 
@@ -768,7 +773,9 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ## OUTPUT
+ ![Alt text](img/until.png)
+
  
 cat forin1.sh 
 ```bash
@@ -830,7 +837,8 @@ done
 ```
 $ chmod 755 forin1.sh
 
-## OUTPUT
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
