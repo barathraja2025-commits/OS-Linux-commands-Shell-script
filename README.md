@@ -788,7 +788,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ## OUTPUT
+ ![Alt text](img/forin1.png)
  
 cat forin2.sh 
 ```bash
@@ -814,7 +815,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ## OUTPUT
+![Alt text](img/forin2.png)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -825,6 +828,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
+## OUTUT:
+![Alt text](img/forin3.png)
  
 cat forin1.sh 
 ```bash
