@@ -842,8 +842,8 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
-
+## OUTPUT
+![Alt text](img/forin11.png)
 
 cat forinfile.sh 
 ```bash
@@ -880,6 +880,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![Alt text](img/forctype.png)
+
 
 cat forctype1.sh 
 ```bash
@@ -893,6 +895,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![Alt text](img/forctype1.png)
+
 
 cat fornested1.sh 
 ```bash
@@ -911,7 +915,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![Alt text](img/fornested1.png)
  
 cat forbreak.sh 
 ```bash
@@ -927,13 +931,15 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
-cat forbreak.sh 
+## OUTPUT
+![Alt text](img/forbreak.png)
+
+
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
