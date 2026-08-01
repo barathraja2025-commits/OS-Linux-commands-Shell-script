@@ -866,7 +866,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![Alt text](img/cities.png)
 
 cat forctype.sh 
 ```bash
